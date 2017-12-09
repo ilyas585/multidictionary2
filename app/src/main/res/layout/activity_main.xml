@@ -9,13 +9,24 @@
     android:orientation="vertical">
 
 
+    <Button
+        android:id="@+id/btn_to_addWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="280dp"
+        android:text="Добавить слово"
+        android:onClick="OpenMain2Activity"
+        />
+
     <EditText
         android:id="@+id/edit_search"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="100dp"
         android:layout_marginLeft="50dp"
         android:hint="нажмите, чтобы ввести слово"
+        android:inputType="text"
         />
 
 
@@ -37,13 +48,5 @@
         android:textAlignment="center"
         android:layout_marginTop="20dp"/>
 
-    <Button
-        android:id="@+id/btn_to_addWord"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:layout_marginLeft="280dp"
-        android:text="Добавить слово"
-        android:onClick="OpenMain2Activity"
-        />
+
 </LinearLayout>
