@@ -28,6 +28,7 @@
         android:layout_marginTop="50dp"
         android:hint="перевод"
         android:textAlignment="center"
+
         android:inputType="text"/>
 
     <EditText
